@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 735px;
+  height: 511px;
+  box-shadow: 5px 5px 20px hsla(234, 85%, 45%, 0.1);
+  border-radius: 20px;
+
+  display: flex;
+  margin: auto;
+}
