@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   font-size: 18px;
+  font-family: Hanken Grotesk;
 
   display: flex;
   flex-direction: column;
