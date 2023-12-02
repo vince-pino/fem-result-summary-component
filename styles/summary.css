@@ -10,21 +10,25 @@
 }
 
 .summary-container h4 {
+  color: hsl(224, 30%, 27%);
+  font-size: 24px;
   margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .cards-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 17px;
 }
 
 .reaction-card,
 .memory-card,
 .verbal-card,
 .visual-card {
-  padding: 15px;
+  padding: 16px;
   border-radius: 10px;
+  font-weight: 700;
 
   display: flex;
   justify-content: space-between;
@@ -32,19 +36,19 @@
 }
 
 .reaction-card {
-  background-color: hsla(0, 100%, 67%, 0.1);
+  background-color: hsla(0, 100%, 67%, 0.05);
 }
 
 .memory-card {
-  background-color: hsla(39, 100%, 56%, 0.1);
+  background-color: hsla(39, 100%, 56%, 0.05);
 }
 
 .verbal-card {
-  background-color: hsla(166, 100%, 37%, 0.1);
+  background-color: hsla(166, 100%, 37%, 0.05);
 }
 
 .visual-card {
-  background-color: hsla(234, 85%, 45%, 0.1);
+  background-color: hsla(234, 85%, 45%, 0.05);
 }
 
 .reaction,
@@ -55,24 +59,28 @@
   align-items: center;
 }
 
+.summary-score {
+  color: hsl(224, 30%, 27%);
+}
+
 img {
   margin-right: 10px;
 }
 
 .reaction {
-  color: hsl(0, 100%, 67%);
+  color: hsla(0, 100%, 67%, 0.8);
 }
 
 .memory {
-  color: hsl(39, 100%, 56%);
+  color: hsla(39, 100%, 56%, 0.8);
 }
 
 .verbal {
-  color: hsl(166, 100%, 37%);
+  color: hsla(166, 100%, 37%, 0.8);
 }
 
 .visual {
-  color: hsl(234, 85%, 45%);
+  color: hsla(234, 85%, 45%, 0.8);
 }
 
 .over {
@@ -80,10 +88,16 @@ img {
 }
 
 button {
-  margin-top: 15px;
-  padding: 15px;
+  background-color: hsl(224, 30%, 27%);
+  margin-top: 25px;
+  padding: 18px;
   border-radius: 50px;
-  background-color: hsla(256, 72%, 46%, 1);
   border: none;
   color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button:active {
+  background-color: hsla(256, 72%, 46%, 1);
 }
