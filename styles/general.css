@@ -16,3 +16,13 @@ body {
   display: flex;
   margin: auto;
 }
+
+.attribution { 
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
