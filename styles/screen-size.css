@@ -16,4 +16,11 @@
   .result-container {
     padding-top: 60px;
   }
+
+  .result-container p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+
 }
